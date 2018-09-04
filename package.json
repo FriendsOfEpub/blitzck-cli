@@ -1,0 +1,36 @@
+{
+  "name": "blitzck-cli",
+  "version": "0.0.1",
+  "description": "A tool that gives you EPUB Reading Systems’ support from the command line interface",
+  "license": "MIT",
+  "homepage": "https://github.com/FriendsOfEpub/blitzck-cli",
+  "bugs": {
+    "url": "https://github.com/FriendsOfEpub/blitzck-cli/issues"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/FriendsOfEpub/blitzck-cli.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "epub",
+    "epub3",
+    "support",
+    "reading-system",
+    "reading-app",
+    "ebook",
+    "cli"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "blitzck": "bin/blitzck"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "minimist": "^1.2.0"
+  }
+}
