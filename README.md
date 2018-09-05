@@ -12,6 +12,8 @@ If for some reason the `blitzck` command doesn’t work after a global install, 
 
 From anywhere, you can now run the `blitzck` command.
 
+### Check support
+
 To see the list of apps in the database:
 
 ```
@@ -21,7 +23,7 @@ blitzck support --list
 Then to check a specific app e.g. iBooks:
 
 ```
-blitzck support --app ibooks
+blitzck support --search ibooks
 ```
 
 This will output a compat table for each platform documented.
@@ -33,6 +35,12 @@ blitzck support --json > epub-support.json
 ```
 
 Will create an `epub-support.json` file and write the database as JSON inside it.
+
+### Check namespaces
+
+```
+blitzck ns --search epub
+```
 
 ## Acknowledgements
 
@@ -48,11 +56,12 @@ Jellybooks require EPUB 3, JavaScript and Web Storage for an app to be supported
 blitzck [command] <options>
 
     support ............ show support for the Reading System
-        --app, -a ........... show the app
         --help, -h .......... show help specific to the support command
         --json, -j .......... show a raw JSON output
         --list, -l .......... show the list of Reading Systems available in the database
+        --search, -s ........ search a specific Reading System
     ns ................. show namespaces
+        --all, -a ........... show all namespaces
         --help, -h .......... show help specific to the ns command
         --list, -l .......... show the list of namespaces available in the database
         --search, -s ........ search a specific namespace
@@ -60,7 +69,7 @@ blitzck [command] <options>
     help ............... show help menu
 ```
 
-## Supported Features
+## Support Features
 
 - Name: the `navigator.epubReadingSystem.name`.
 - Version: the `navigator.epubReadingSystem.version`.

@@ -3,11 +3,12 @@ const menus = {
     blitzck [command] <options>
 
     support ............ show support for the Reading System
-        --app, -a ........... show the app
         --help, -h .......... show help specific to the support command
         --json, -j .......... show a raw JSON output
         --list, -l .......... show the list of Reading Systems available in the database
+        --search, -s ........ search a specific Reading System
     ns ................. show namespaces
+        --all, -a ........... show all namespaces
         --help, -h .......... show help specific to the ns command
         --list, -l .......... show the list of namespaces available in the database
         --search, -s ........ search a specific namespace
@@ -17,17 +18,18 @@ const menus = {
   support: `
     blitzck support <options>
 
-    --app, -a .......... show the app
     --help, -h ......... show help specific to the support command
     --json, -j ......... show a raw JSON output
-    --list, -l ......... show the list of Reading Systems available in the database\n`,
+    --list, -l ......... show the list of Reading Systems available in the database
+    --search, -s ....... search a specific Reading System\n`,
 
   ns: `
     blitzck ns <options>
 
+    --all, -a .......... show all namespaces
     --help, -h ......... show help specific to the ns command
-    --list, -l .......... show the list of namespaces available in the database
-    --search, -s ........ search a specific namespace
+    --list, -l ......... show the list of namespaces available in the database
+    --search, -s ....... search a specific namespace
   `
 }
 
