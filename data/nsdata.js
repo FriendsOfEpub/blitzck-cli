@@ -9,5 +9,6 @@ module.exports = [
   {ns: "rendition", url: "http://www.idpf.org/vocab/rendition/#"},
   {ns: "schema", url: "http://schema.org/"},
   {ns: "svg", url: "http://www.w3.org/2000/svg"},
-  {ns: "xhtml", url: "http://www.w3.org/1999/xhtml/"}
+  {ns: "xhtml", url: "http://www.w3.org/1999/xhtml/"},
+  {ns: "z3998", url: "http://www.daisy.org/z3998/2012/vocab/structure/#"}
 ]
