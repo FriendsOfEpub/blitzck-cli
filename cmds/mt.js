@@ -12,20 +12,20 @@ module.exports = (args) => {
     let result = mediatypes;
 
     if (search) {
-      let f = search.toLowerCase();
-      let idx = mediatypes.findIndex(x => x.f === f);
+      let format = search.toLowerCase();
+      let idx = mediatypes.findIndex(x => x.format === format);
 
       if (idx >= 0) {
-        result = mediatypes[idx].mt;
-        console.log(`\n${f} media type is "${result}"\n`);
+        result = mediatypes[idx].mimetype;
+        console.log(`\n${format} media type is "${result}"\n`);
       } else {
-        console.log(`\n${f} is not in the database.`);
-        makeList(mediatypes, "f", "media types");
+        console.log(`\n${format} is not in the database.`);
+        makeList(mediatypes, "format", "media types");
       }
     } else if (all) {
-      listAll(mediatypes, "f", "mt", "media types");
+      listAll(mediatypes, "format", "mimetype", "media types");
     } else if (list) {
-      makeList(mediatypes, "f", "media types");
+      makeList(mediatypes, "format", "media types");
     } else {
       help(args);
     }
