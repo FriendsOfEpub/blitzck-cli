@@ -18,6 +18,9 @@ module.exports = () => {
     case "support":
       require("./cmds/support")(args)
       break
+    case "ns":
+      require("./cmds/ns")(args)
+      break
     case "help":
       require("./cmds/help")(args)
       break

@@ -7,6 +7,10 @@ const menus = {
         --help, -h .......... show help specific to the support command
         --json, -j .......... show a raw JSON output
         --list, -l .......... show the list of Reading Systems available in the database
+    ns ................. show namespaces
+        --help, -h .......... show help specific to the ns command
+        --list, -l .......... show the list of namespaces available in the database
+        --search, -s ........ search a specific namespace
     version ............ show the version
     help ............... show help menu\n`,
 
@@ -17,6 +21,14 @@ const menus = {
     --help, -h ......... show help specific to the support command
     --json, -j ......... show a raw JSON output
     --list, -l ......... show the list of Reading Systems available in the database\n`,
+
+  ns: `
+    blitzck ns <options>
+
+    --help, -h ......... show help specific to the ns command
+    --list, -l .......... show the list of namespaces available in the database
+    --search, -s ........ search a specific namespace
+  `
 }
 
 module.exports = (args) => {

@@ -1,4 +1,5 @@
 const data = require("../data/rawdata");
+const makeList = require("../utils/makelist");
 require("console.table");
 
 module.exports = (args) => {
@@ -8,14 +9,6 @@ module.exports = (args) => {
     const json = args.json || args.j;
 
     let result = data;
-
-    const makeList = () => {
-      let listing = ``;
-      for (let i in result) {
-        listing += `- ${result[i].appName}\n`;
-      }
-      console.log(`\nHere is the list of apps in the database:\n${listing}`);
-    };
 
     if (app) {
       let appName = app.toLowerCase();
@@ -36,14 +29,14 @@ module.exports = (args) => {
         }
       } else {
         console.log(`\n${app} is not in the database.`);
-        makeList();
+        makeList(data, "appName", "apps");
       }
     } else if (list) {
-      makeList();
+      makeList(data, "appName", "apps");
     } else if (json) {
       console.log(`\n${JSON.stringify(result, null, 2)}\n`);
     } else {
-      makeList();
+      makeList(data, "appName", "apps");
     }
 
   } catch (err) {
