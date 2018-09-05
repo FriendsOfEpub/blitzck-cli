@@ -15,17 +15,17 @@ module.exports = () => {
   }
 
   switch (cmd) {
-    case "support":
-      require("./cmds/support")(args)
+    case "help":
+      require("./cmds/help")(args)
+      break
+    case "mt":
+      require("./cmds/mt")(args)
       break
     case "ns":
       require("./cmds/ns")(args)
       break
-    case "cmt":
-      require("./cmds/cmt")(args)
-      break
-    case "help":
-      require("./cmds/help")(args)
+    case "support":
+      require("./cmds/support")(args)
       break
     case "version":
       require("./cmds/version")(args)

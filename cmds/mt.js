@@ -1,4 +1,4 @@
-const mediatypes = require("../data/cmtdata");
+const mediatypes = require("../data/mtdata");
 const makeList = require("../utils/makelist");
 const listAll = require("../utils/listall");
 const help = require("./help");

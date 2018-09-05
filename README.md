@@ -42,10 +42,10 @@ Will create an `epub-support.json` file and write the database as JSON inside it
 blitzck ns --search epub
 ```
 
-### Check Core Media Types
+### Check Media Types
 
 ```
-blitzck cmt --search otf
+blitzck mt --search otf
 ```
 
 ## Acknowledgements
@@ -61,12 +61,12 @@ Jellybooks require EPUB 3, JavaScript and Web Storage for an app to be supported
 ```
 blitzck [command] <options>
 
-    cmt ................ show core media types
-        --all, -a ........... show all core media types
-        --help, -h .......... show help specific to the ns command
-        --list, -l .......... show the list of core media types available in the database
-        --search, -s ........ search a specific core media type
-    help ............... show help menu
+    help .............. show help menu
+    mt ................ show media types
+        --all, -a ........... show all media types
+        --help, -h .......... show help specific to the mt command
+        --list, -l .......... show the list of media types available in the database
+        --search, -s ........ search a specific media type
     ns ................. show namespaces
         --all, -a ........... show all namespaces
         --help, -h .......... show help specific to the ns command

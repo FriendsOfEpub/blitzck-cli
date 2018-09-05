@@ -2,12 +2,12 @@ const menus = {
   main: `
     blitzck [command] <options>
 
-    cmt ................ show core media types
-        --all, -a ........... show all core media types
-        --help, -h .......... show help specific to the ns command
-        --list, -l .......... show the list of core media types available in the database
-        --search, -s ........ search a specific core media type
-    help ............... show help menu
+    help .............. show help menu
+    mt ................ show media types
+        --all, -a ........... show all media types
+        --help, -h .......... show help specific to the mt command
+        --list, -l .......... show the list of media types available in the database
+        --search, -s ........ search a specific media type
     ns ................. show namespaces
         --all, -a ........... show all namespaces
         --help, -h .......... show help specific to the ns command
@@ -20,13 +20,13 @@ const menus = {
         --search, -s ........ search a specific Reading System
     version ............ show the version\n`,
 
-  cmt: `
-    blitzck cmt <options>
+  mt: `
+    blitzck mt <options>
 
-    --all, -a .......... show all core media types
-    --help, -h ......... show help specific to the ns command
-    --list, -l ......... show the list of core media types available in the database
-    --search, -s ....... search a specific core media type\n`,
+    --all, -a .......... show all media types
+    --help, -h ......... show help specific to the mt command
+    --list, -l ......... show the list of media types available in the database
+    --search, -s ....... search a specific media type\n`,
 
   ns: `
     blitzck ns <options>
