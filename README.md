@@ -12,7 +12,7 @@ If for some reason the `blitzck` command doesn’t work after a global install, 
 
 From anywhere, you can now run the `blitzck` command.
 
-### Check support
+### Check Support
 
 To see the list of apps in the database:
 
@@ -36,10 +36,16 @@ blitzck support --json > epub-support.json
 
 Will create an `epub-support.json` file and write the database as JSON inside it.
 
-### Check namespaces
+### Check Namespaces
 
 ```
 blitzck ns --search epub
+```
+
+### Check Core Media Types
+
+```
+blitzck cmt --search otf
 ```
 
 ## Acknowledgements
@@ -55,18 +61,23 @@ Jellybooks require EPUB 3, JavaScript and Web Storage for an app to be supported
 ```
 blitzck [command] <options>
 
-    support ............ show support for the Reading System
-        --help, -h .......... show help specific to the support command
-        --json, -j .......... show a raw JSON output
-        --list, -l .......... show the list of Reading Systems available in the database
-        --search, -s ........ search a specific Reading System
+    cmt ................ show core media types
+        --all, -a ........... show all core media types
+        --help, -h .......... show help specific to the ns command
+        --list, -l .......... show the list of core media types available in the database
+        --search, -s ........ search a specific core media type
+    help ............... show help menu
     ns ................. show namespaces
         --all, -a ........... show all namespaces
         --help, -h .......... show help specific to the ns command
         --list, -l .......... show the list of namespaces available in the database
         --search, -s ........ search a specific namespace
+    support ............ show support for the Reading System
+        --help, -h .......... show help specific to the support command
+        --json, -j .......... show a raw JSON output
+        --list, -l .......... show the list of Reading Systems available in the database
+        --search, -s ........ search a specific Reading System
     version ............ show the version
-    help ............... show help menu
 ```
 
 ## Support Features

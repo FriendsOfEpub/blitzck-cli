@@ -21,6 +21,9 @@ module.exports = () => {
     case "ns":
       require("./cmds/ns")(args)
       break
+    case "cmt":
+      require("./cmds/cmt")(args)
+      break
     case "help":
       require("./cmds/help")(args)
       break
