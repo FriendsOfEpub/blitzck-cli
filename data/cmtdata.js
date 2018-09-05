@@ -1,7 +1,7 @@
 module.exports = [
   {f: "aac", mt: "audio/mp4"},
   {f: "css", mt: "text/css"},
-  {f: "epub", mt: "application/oebps-package+xml"},
+  {f: "epub", mt: "application/epub+zip"},
   {f: "gif", mt: "image/gif"},
   {f: "jpeg", mt: "image/jpeg"},
   {f: "jpg", mt: "image/jpeg"},
@@ -10,6 +10,7 @@ module.exports = [
   {f: "mp4", mt: "audio/mp4"},
   {f: "mpeg", mt: "audio/mpeg"},
   {f: "ncx", mt: "application/x-dtbncx+xml"},
+  {f: "opf", mt: "application/oebps-package+xml"},
   {f: "otf", mt: "application/font-sfnt"},
   {f: "pls", mt: "application/pls+xml"},
   {f: "png", mt: "image/png"},
