@@ -1,4 +1,4 @@
-const namespaces = require("../data/nsdata");
+const namespaces = require("../data/nsdata.json");
 const makeList = require("../utils/makelist");
 const listAll = require("../utils/listall");
 const help = require("./help");
