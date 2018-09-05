@@ -11,7 +11,7 @@ module.exports = (args) => {
 
     const makeList = () => {
       let listing = ``;
-      for (i in result) {
+      for (let i in result) {
         listing += `- ${result[i].appName}\n`;
       }
       console.log(`\nHere is the list of apps in the database:\n${listing}`);
@@ -30,7 +30,7 @@ module.exports = (args) => {
         if (result.all) {
           console.table(result.all);
         } else {
-          for (os in result) {
+          for (let os in result) {
             console.table(`\nOn ${os}:`, result[os]);
           }
         }
