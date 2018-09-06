@@ -2,21 +2,47 @@ const menus = {
   main: `
     blitzck [command] <options>
 
+    help .............. show help menu
+    mt ................ show media types
+        --all, -a ........... show all media types
+        --help, -h .......... show help specific to the mt command
+        --list, -l .......... show the list of media types available in the database
+        --search, -s ........ search a specific media type
+    ns ................. show namespaces
+        --all, -a ........... show all namespaces
+        --help, -h .......... show help specific to the ns command
+        --list, -l .......... show the list of namespaces available in the database
+        --search, -s ........ search a specific namespace
     support ............ show support for the Reading System
-        --app, -a ........... show the app
         --help, -h .......... show help specific to the support command
         --json, -j .......... show a raw JSON output
         --list, -l .......... show the list of Reading Systems available in the database
-    version ............ show the version
-    help ............... show help menu\n`,
+        --search, -s ........ search a specific Reading System
+    version ............ show the version\n`,
+
+  mt: `
+    blitzck mt <options>
+
+    --all, -a .......... show all media types
+    --help, -h ......... show help specific to the mt command
+    --list, -l ......... show the list of media types available in the database
+    --search, -s ....... search a specific media type\n`,
+
+  ns: `
+    blitzck ns <options>
+
+    --all, -a .......... show all namespaces
+    --help, -h ......... show help specific to the ns command
+    --list, -l ......... show the list of namespaces available in the database
+    --search, -s ....... search a specific namespace\n`,
 
   support: `
     blitzck support <options>
 
-    --app, -a .......... show the app
     --help, -h ......... show help specific to the support command
     --json, -j ......... show a raw JSON output
-    --list, -l ......... show the list of Reading Systems available in the database\n`,
+    --list, -l ......... show the list of Reading Systems available in the database
+    --search, -s ....... search a specific Reading System\n`
 }
 
 module.exports = (args) => {

@@ -1,9 +1,9 @@
-module.exports = [
+[
   {
-    appName: "ade",
-    displayName: "ADE",
-    support: {
-      all: {
+    "appName": "ade",
+    "displayName": "ADE",
+    "support": {
+      "all": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -17,10 +17,10 @@ module.exports = [
   },
 
   {
-    appName: "ade4",
-    displayName: "ADE 4",
-    support: {
-      Android: {
+    "appName": "ade4",
+    "displayName": "ADE 4",
+    "support": {
+      "Android": {
         "Name": "RMSDK",
         "Version": "12.5",
         "EPUB 3": "Yes",
@@ -30,7 +30,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "ChromeView"
       },
-      iOS: {
+      "iOS": {
         "Name": "RMSDK",
         "Version": "12.5",
         "EPUB 3": "Yes",
@@ -40,7 +40,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "UIWebView"
       },
-      macOS: {
+      "macOS": {
         "Name": "RMSDK",
         "Version": "12.5",
         "EPUB 3": "Yes",
@@ -50,7 +50,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "Webkit (Safari)"
       },
-      Windows: {
+      "Windows": {
         "Name": "RMSDK",
         "Version": "12.5",
         "EPUB 3": "Yes",
@@ -64,10 +64,10 @@ module.exports = [
   },
 
   {
-    appName: "aireader",
-    displayName: "AI Reader",
-    support: {
-      Android: {
+    "appName": "aireader",
+    "displayName": "AI Reader",
+    "support": {
+      "Android": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -77,17 +77,17 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "FBReader"
       },
-      iOS: "No data for this platform.",
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "iOS": "No data for this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "aldiko",
-    displayName: "Aldiko",
-    support: {
-      all: {
+    "appName": "aldiko",
+    "displayName": "Aldiko",
+    "support": {
+      "all": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -101,12 +101,12 @@ module.exports = [
   },
 
   {
-    appName: "azardi",
-    displayName: "Azardi",
-    support: {
-      Android: "No data for this platform.",
-      iOS: "No data for this platform.",
-      macOS: {
+    "appName": "azardi",
+    "displayName": "Azardi",
+    "support": {
+      "Android": "No data for this platform.",
+      "iOS": "No data for this platform.",
+      "macOS": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -116,7 +116,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "Gecko (Firefox)"
       },
-      Windows: {
+      "Windows": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -130,13 +130,13 @@ module.exports = [
   },
 
   {
-    appName: "bibliovore",
-    displayName: "Bibliovore",
-    support: {
-      Android: "Not available on this platform.",
-      iOS: "Not available on this platform.",
-      macOS: "Not available on this platform.",
-      Windows: {
+    "appName": "bibliovore",
+    "displayName": "Bibliovore",
+    "support": {
+      "Android": "Not available on this platform.",
+      "iOS": "Not available on this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -150,10 +150,10 @@ module.exports = [
   },
 
   {
-    appName: "bluefire",
-    displayName: "Bluefire Reader",
-    support: {
-      all: {
+    "appName": "bluefire",
+    "displayName": "Bluefire Reader",
+    "support": {
+      "all": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -167,11 +167,11 @@ module.exports = [
   },
 
   {
-    appName: "bookari",
-    displayName: "Bookari",
-    support: {
-      Android: "No data for this platform.",
-      iOS: {
+    "appName": "bookari",
+    "displayName": "Bookari",
+    "support": {
+      "Android": "No data for this platform.",
+      "iOS": {
         "Name": "Bookari Premium",
         "Version": "4.6",
         "EPUB 3": "Yes",
@@ -181,19 +181,19 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "UIWebView"
       },
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "bookshelf",
-    displayName: "BookShelf",
-    support: {
-      Android: "No data for this platform.",
-      iOS: "No data for this platform.",
-      macOS: "Not available on this platform.",
-      Windows: {
+    "appName": "bookshelf",
+    "displayName": "BookShelf",
+    "support": {
+      "Android": "No data for this platform.",
+      "iOS": "No data for this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": {
         "Name": "Bookshelf Desktop",
         "Version": "7.6",
         "EPUB 3": "Yes",
@@ -207,10 +207,10 @@ module.exports = [
   },
 
   {
-    appName: "bookvia",
-    displayName: "Bookvia",
-    support: {
-      Android: {
+    "appName": "bookvia",
+    "displayName": "Bookvia",
+    "support": {
+      "Android": {
         "name": "Bookvia",
         "version": "1.0",
         "EPUB 3": "Yes",
@@ -220,7 +220,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "ChromeView"
       },
-      iOS: {
+      "iOS": {
         "Name": "Bookvia",
         "Version": "1.2",
         "EPUB 3": "Yes",
@@ -230,18 +230,18 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "UIWebView"
       },
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "bookworm",
-    displayName: "Bookworm",
-    support: {
-      Android: "Not available on this platform.",
-      iOS: "Not available on this platform.",
-      Linux: {
+    "appName": "bookworm",
+    "displayName": "Bookworm",
+    "support": {
+      "Android": "Not available on this platform.",
+      "iOS": "Not available on this platform.",
+      "Linux": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -251,16 +251,16 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "Webkit"
       },
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "cloudshelf",
-    displayName: "Cloudshelf Reader",
-    support: {
-      Android: {
+    "appName": "cloudshelf",
+    "displayName": "Cloudshelf Reader",
+    "support": {
+      "Android": {
         "Name": "Readium Android-cloudshelf-reader-sdk",
         "Version": "1.0.0",
         "EPUB 3": "Yes",
@@ -270,7 +270,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "ChromeView"
       },
-      iOS: {
+      "iOS": {
         "Name": "Readium SDKLauncher-iOS",
         "Version": "1.0.0",
         "EPUB 3": "Yes",
@@ -280,16 +280,16 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "WKWebview"
       },
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "fbreader",
-    displayName: "FBReader",
-    support: {
-      all: {
+    "appName": "fbreader",
+    "displayName": "FBReader",
+    "support": {
+      "all": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -303,13 +303,13 @@ module.exports = [
   },
 
   {
-    appName: "freda",
-    displayName: "Freda",
-    support: {
-      Android: "Not available on this platform.",
-      iOS: "Not available on this platform.",
-      macOS: "Not available on this platform.",
-      Windows: {
+    "appName": "freda",
+    "displayName": "Freda",
+    "support": {
+      "Android": "Not available on this platform.",
+      "iOS": "Not available on this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -323,10 +323,10 @@ module.exports = [
   },
 
   {
-    appName: "gitden",
-    displayName: "Gitden Reader",
-    support: {
-      Android: {
+    "appName": "gitden",
+    "displayName": "Gitden Reader",
+    "support": {
+      "Android": {
         "Name": "Gitden Reader",
         "Version": "4.5.3",
         "EPUB 3": "Yes",
@@ -336,7 +336,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "ChromeView"
       },
-      iOS: {
+      "iOS": {
         "Name": "Gitden Reader",
         "Version": "4.5.1",
         "EPUB 3": "Yes",
@@ -346,16 +346,16 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "UIWebView"
       },
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "helicon",
-    displayName: "Helicon Books",
-    support: {
-      Android: {
+    "appName": "helicon",
+    "displayName": "Helicon Books",
+    "support": {
+      "Android": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -365,18 +365,18 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "ChromeView"
       },
-      iOS: "No data for this platform.",
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "iOS": "No data for this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "ibooks",
-    displayName: "iBooks",
-    support: {
-      Android: "Not available on this platform.",
-      iOS: {
+    "appName": "ibooks",
+    "displayName": "iBooks",
+    "support": {
+      "Android": "Not available on this platform.",
+      "iOS": {
         "Name": "iBooks",
         "Version": "5.0",
         "EPUB 3": "Yes",
@@ -386,7 +386,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "UIWebView"
       },
-      macOS: {
+      "macOS": {
         "Name": "iBooks",
         "Version": "1.5",
         "EPUB 3": "Yes",
@@ -396,18 +396,18 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "Webkit (Safari)"
       },
-      Windows: "Not available on this platform."
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "icecream",
-    displayName: "IceCream Reader",
-    support: {
-      Android: "Not available on this platform.",
-      iOS: "Not available on this platform.",
-      macOS: "Not available on this platform.",
-      Windows: {
+    "appName": "icecream",
+    "displayName": "IceCream Reader",
+    "support": {
+      "Android": "Not available on this platform.",
+      "iOS": "Not available on this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -421,10 +421,10 @@ module.exports = [
   },
 
   {
-    appName: "infinity",
-    displayName: "Infinity Reader",
-    support: {
-      Android: {
+    "appName": "infinity",
+    "displayName": "Infinity Reader",
+    "support": {
+      "Android": {
         "Name": "Readium SDKLauncher-Android",
         "Version": "1.0.0",
         "EPUB 3": "Yes",
@@ -434,17 +434,17 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "ChromeView"
       },
-      iOS: "No data for this platform.",
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "iOS": "No data for this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "kindle",
-    displayName: "Kindle – LOL did you really want to check this one? – ",
-    support: {
-      all: {
+    "appName": "kindle",
+    "displayName": "Kindle – LOL did you really want to check this one? –",
+    "support": {
+      "all": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Somewhat",
@@ -458,10 +458,10 @@ module.exports = [
   },
 
   {
-    appName: "kobo",
-    displayName: "Kobo",
-    support: {
-      Android: {
+    "appName": "kobo",
+    "displayName": "Kobo",
+    "support": {
+      "Android": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -471,7 +471,7 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "Android WebView (old)"
       },
-      iOS: {
+      "iOS": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -481,7 +481,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "UIWebView"
       },
-      macOS: {
+      "macOS": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -491,7 +491,7 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "Unknown"
       },
-      Windows: {
+      "Windows": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -505,10 +505,10 @@ module.exports = [
   },
 
   {
-    appName: "kotobee",
-    displayName: "Kotobee Reader",
-    support: {
-      Android: {
+    "appName": "kotobee",
+    "displayName": "Kotobee Reader",
+    "support": {
+      "Android": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -518,17 +518,17 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "Unknown"
       },
-      iOS: "No data for this platform.",
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "iOS": "No data for this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "lea",
-    displayName: "Lea Reader",
-    support: {
-      Android: {
+    "appName": "lea",
+    "displayName": "Lea Reader",
+    "support": {
+      "Android": {
         "Name": "Readium SDKLauncher-Android",
         "Version": "1.0.0",
         "EPUB 3": "Yes",
@@ -538,7 +538,7 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "ChromeView"
       },
-      iOS: {
+      "iOS": {
         "Name": "Readium SDKLauncher-iOS",
         "Version": "1.0.0",
         "EPUB 3": "Yes",
@@ -548,16 +548,16 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "WKWebView"
       },
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "lektz",
-    displayName: "Lektz Reader",
-    support: {
-      Android: {
+    "appName": "lektz",
+    "displayName": "Lektz Reader",
+    "support": {
+      "Android": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -567,7 +567,7 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "ChromeView"
       },
-      iOS: {
+      "iOS": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -577,16 +577,16 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "UIWebView"
       },
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "lisa",
-    displayName: "Lisa",
-    support: {
-      Android: {
+    "appName": "lisa",
+    "displayName": "Lisa",
+    "support": {
+      "Android": {
         "Name": "Readium SDKLauncher-Android",
         "Version": "1.0.0",
         "EPUB 3": "Yes",
@@ -596,7 +596,7 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "ChromeView"
       },
-      iOS: {
+      "iOS": {
         "Name": "Readium SDKLauncher-iOS",
         "Version": "1.0.0",
         "EPUB 3": "Yes",
@@ -606,16 +606,16 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "WKWebView"
       },
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "moon",
-    displayName: "Moon+ Reader",
-    support: {
-      all: {
+    "appName": "moon",
+    "displayName": "Moon+ Reader",
+    "support": {
+      "all": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -629,13 +629,13 @@ module.exports = [
   },
 
   {
-    appName: "msedge",
-    displayName: "MS Edge Reader",
-    support: {
-      Android: "No data for this platform.",
-      iOS: "No data for this platform.",
-      macOS: "Not available on this platform.",
-      Windows: {
+    "appName": "msedge",
+    "displayName": "MS Edge Reader",
+    "support": {
+      "Android": "No data for this platform.",
+      "iOS": "No data for this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -649,10 +649,10 @@ module.exports = [
   },
 
   {
-    appName: "nook",
-    displayName: "Nook",
-    support: {
-      all: {
+    "appName": "nook",
+    "displayName": "Nook",
+    "support": {
+      "all": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -666,10 +666,10 @@ module.exports = [
   },
 
   {
-    appName: "overdrive",
-    displayName: "Overdrive Console",
-    support: {
-      Android: {
+    "appName": "overdrive",
+    "displayName": "Overdrive Console",
+    "support": {
+      "Android": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -679,7 +679,7 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "ChromeView"
       },
-      iOS: {
+      "iOS": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -689,8 +689,8 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "UIWebView"
       },
-      macOS: "Not available on this platform.",
-      Windows: {
+      "macOS": "Not available on this platform.",
+      "Windows": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -704,10 +704,10 @@ module.exports = [
   },
 
   {
-    appName: "playbooks",
-    displayName: "Google Play Books",
-    support: {
-      all: {
+    "appName": "playbooks",
+    "displayName": "Google Play Books",
+    "support": {
+      "all": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -721,10 +721,10 @@ module.exports = [
   },
 
   {
-    appName: "prestigio",
-    displayName: "Prestigio eReader",
-    support: {
-      Android: {
+    "appName": "prestigio",
+    "displayName": "Prestigio eReader",
+    "support": {
+      "Android": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "No",
@@ -734,17 +734,17 @@ module.exports = [
         "Web Storage": "No",
         "Engine": "FBReader"
       },
-      iOS: "Not available on this platform.",
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "iOS": "Not available on this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   },
 
   {
-    appName: "reasily",
-    displayName: "Reasily",
-    support: {
-      Android: {
+    "appName": "reasily",
+    "displayName": "Reasily",
+    "support": {
+      "Android": {
         "Name": "Not implemented",
         "Version": "Not implemented",
         "EPUB 3": "Yes",
@@ -754,9 +754,9 @@ module.exports = [
         "Web Storage": "Yes",
         "Engine": "ChromeView"
       },
-      iOS: "Not available on this platform.",
-      macOS: "Not available on this platform.",
-      Windows: "Not available on this platform."
+      "iOS": "Not available on this platform.",
+      "macOS": "Not available on this platform.",
+      "Windows": "Not available on this platform."
     }
   }
 ]

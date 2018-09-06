@@ -1,28 +1,22 @@
-const data = require("../data/rawdata");
+const data = require("../data/supportdata.json");
+const makeList = require("../utils/makelist");
+const help = require("./help");
 require("console.table");
 
 module.exports = (args) => {
   try {
-    const app = args.app || args.a;
+    const search = args.search || args.s;
     const list = args.list || args.l;
     const json = args.json || args.j;
 
     let result = data;
 
-    const makeList = () => {
-      let listing = ``;
-      for (let i in result) {
-        listing += `- ${result[i].appName}\n`;
-      }
-      console.log(`\nHere is the list of apps in the database:\n${listing}`);
-    };
-
-    if (app) {
-      let appName = app.toLowerCase();
+    if (search) {
+      let appName = search.toLowerCase();
       let idx = data.findIndex(x => x.appName === appName);
 
       if (idx >= 0) {
-        appName = data[idx].displayName || app;
+        appName = data[idx].displayName || search;
         console.log(`\nSupport for ${appName}:`);
 
         result = data[idx].support;
@@ -35,15 +29,15 @@ module.exports = (args) => {
           }
         }
       } else {
-        console.log(`\n${app} is not in the database.`);
-        makeList();
+        console.log(`\n${search} is not in the database.`);
+        makeList(data, "appName", "Reading Systems");
       }
     } else if (list) {
-      makeList();
+      makeList(data, "appName", "Reading Systems");
     } else if (json) {
       console.log(`\n${JSON.stringify(result, null, 2)}\n`);
     } else {
-      makeList();
+      help(args);
     }
 
   } catch (err) {

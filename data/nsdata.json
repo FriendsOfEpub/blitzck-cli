@@ -1,0 +1,14 @@
+[
+  {"ns": "dc", "url": "http://purl.org/dc/elements/1.1/"},
+  {"ns": "dcterms", "url": "http://purl.org/dc/terms/"},
+  {"ns": "epub", "url": "http://www.idpf.org/2007/ops"},
+  {"ns": "ibooks", "url": "http://apple.com/ibooks/html-extensions"},
+  {"ns": "ibooks-vocab", "url": "http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/"},
+  {"ns": "mathml", "url": "http://www.w3.org/1998/Math/MathML/"},
+  {"ns": "opf", "url": "http://www.idpf.org/2007/opf"},
+  {"ns": "rendition", "url": "http://www.idpf.org/vocab/rendition/#"},
+  {"ns": "schema", "url": "http://schema.org/"},
+  {"ns": "svg", "url": "http://www.w3.org/2000/svg"},
+  {"ns": "xhtml", "url": "http://www.w3.org/1999/xhtml/"},
+  {"ns": "z3998", "url": "http://www.daisy.org/z3998/2012/vocab/structure/#"}
+]
