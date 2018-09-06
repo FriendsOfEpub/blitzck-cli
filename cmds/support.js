@@ -1,4 +1,4 @@
-const data = require("../data/rawdata.json");
+const data = require("../data/supportdata.json");
 const makeList = require("../utils/makelist");
 const help = require("./help");
 require("console.table");
