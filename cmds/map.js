@@ -23,7 +23,7 @@ module.exports = (args) => {
         makeList(mappings, "type", "epub:types");
       }
     } else if (all) {
-      listAll(mappings, "epub:types");
+      listAll(mappings, "ARIA Mappings");
     } else if (list) {
       makeList(mappings, "type", "epub:types");
     } else {

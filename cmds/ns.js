@@ -23,7 +23,7 @@ module.exports = (args) => {
         makeList(namespaces, "ns", "namespaces");
       }
     } else if (all) {
-      listAll(namespaces, "namespaces");
+      listAll(namespaces, "Namespaces");
     } else if (list) {
       makeList(namespaces, "ns", "namespaces");
     } else {

@@ -23,7 +23,7 @@ module.exports = (args) => {
         makeList(mediatypes, "format", "media types");
       }
     } else if (all) {
-      listAll(mediatypes, "media types");
+      listAll(mediatypes, "Media Types");
     } else if (list) {
       makeList(mediatypes, "format", "media types");
     } else {
