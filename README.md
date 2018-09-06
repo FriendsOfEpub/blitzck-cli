@@ -1,6 +1,6 @@
 # blitzck-cli
 
-A tool that gives you EPUB Reading Systems’ support from the command line interface
+A tool that gives you EPUB Reading Systems’ support, mimetypes, namespaces, and ARIA mappings from the command line interface
 
 ## Install
 
