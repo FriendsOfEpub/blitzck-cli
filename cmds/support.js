@@ -1,5 +1,6 @@
 const data = require("../data/supportdata.json");
 const makeList = require("../utils/makelist");
+const jexp = require("../utils/jsonexport");
 const help = require("./help");
 require("console.table");
 
@@ -35,7 +36,7 @@ module.exports = (args) => {
     } else if (list) {
       makeList(data, "appName", "Reading Systems");
     } else if (json) {
-      console.log(`\n${JSON.stringify(result, null, 2)}\n`);
+      jexp(result);
     } else {
       help(args);
     }

@@ -1,6 +1,7 @@
 const mappings = require("../data/mapdata.json");
 const makeList = require("../utils/makelist");
 const listAll = require("../utils/listall");
+const jexp = require("../utils/jsonexport");
 const help = require("./help");
 
 module.exports = (args) => {
@@ -8,6 +9,7 @@ module.exports = (args) => {
     const search = args.search || args.s;
     const all = args.all || args.a;
     const list = args.list || args.l;
+    const json = args.json || args.j;
 
     let result = mappings;
 
@@ -26,6 +28,8 @@ module.exports = (args) => {
       listAll(mappings, "ARIA Mappings");
     } else if (list) {
       makeList(mappings, "type", "epub:types");
+    } else if (json) {
+      jexp(result);
     } else {
       help(args);
     }

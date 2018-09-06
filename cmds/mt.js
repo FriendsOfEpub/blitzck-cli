@@ -1,6 +1,7 @@
 const mediatypes = require("../data/mtdata.json");
 const makeList = require("../utils/makelist");
 const listAll = require("../utils/listall");
+const jexp = require("../utils/jsonexport");
 const help = require("./help");
 
 module.exports = (args) => {
@@ -8,6 +9,7 @@ module.exports = (args) => {
     const search = args.search || args.s;
     const all = args.all || args.a;
     const list = args.list || args.l;
+    const json = args.json || args.j;
 
     let result = mediatypes;
 
@@ -26,6 +28,8 @@ module.exports = (args) => {
       listAll(mediatypes, "Media Types");
     } else if (list) {
       makeList(mediatypes, "format", "media types");
+    } else if (json) {
+      jexp(result);
     } else {
       help(args);
     }
