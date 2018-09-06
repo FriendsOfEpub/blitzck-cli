@@ -1,4 +1,5 @@
 [
+  {"ns": "daisy", "url": "http://www.daisy.org/z3998/2012/vocab/structure/#"},
   {"ns": "dc", "url": "http://purl.org/dc/elements/1.1/"},
   {"ns": "dcterms", "url": "http://purl.org/dc/terms/"},
   {"ns": "epub", "url": "http://www.idpf.org/2007/ops"},
