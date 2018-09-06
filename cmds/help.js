@@ -2,13 +2,13 @@ const menus = {
   main: `
     blitzck [command] <options>
 
-    help .............. show help menu
-    map ............... show aria mappings for epub:types
+    help ............... show help menu
+    map ................ show aria mappings for epub:types
         --all, -a ........... show all epub:types and their mapping
         --help, -h .......... show help specific to the map command
         --list, -l .......... show the list of epub:types available in the database
         --search, -s ........ search a specific epub:type
-    mt ................ show media types
+    mt ................. show media types
         --all, -a ........... show all media types
         --help, -h .......... show help specific to the mt command
         --list, -l .......... show the list of media types available in the database
