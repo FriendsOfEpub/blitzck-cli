@@ -1,4 +1,4 @@
-const namespaces = require("../data/nsdata.json");
+const mappings = require("../data/mapdata.json");
 const makeList = require("../utils/makelist");
 const listAll = require("../utils/listall");
 const jexp = require("../utils/jsonexport");
@@ -11,23 +11,23 @@ module.exports = (args) => {
     const list = args.list || args.l;
     const json = args.json || args.j;
 
-    let result = namespaces;
+    let result = mappings;
 
     if (search) {
-      let ns = search.toLowerCase();
-      let idx = namespaces.findIndex(x => x.ns === ns);
+      let type = search.toLowerCase();
+      let idx = mappings.findIndex(x => x.type === type);
 
       if (idx >= 0) {
-        result = namespaces[idx].url;
-        console.log(`\n${ns} namespace is "${result}"\n`);
+        result = mappings[idx].aria;
+        console.log(`\nepub:type "${type}" is "${result}" in aria\n`);
       } else {
-        console.log(`\n${ns} is not in the database.`);
-        makeList(namespaces, "ns", "namespaces");
+        console.log(`\n${type} is not in the database.`);
+        makeList(mappings, "type", "epub:types");
       }
     } else if (all) {
-      listAll(namespaces, "Namespaces");
+      listAll(mappings, "ARIA Mappings");
     } else if (list) {
-      makeList(namespaces, "ns", "namespaces");
+      makeList(mappings, "type", "epub:types");
     } else if (json) {
       jexp(result);
     } else {
