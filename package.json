@@ -1,6 +1,6 @@
 {
   "name": "blitzck-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tool that gives you EPUB Reading Systems’ support from the command line interface",
   "license": "MIT",
   "homepage": "https://github.com/FriendsOfEpub/blitzck-cli",

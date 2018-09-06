@@ -48,6 +48,12 @@ blitzck ns --search epub
 blitzck mt --search otf
 ```
 
+### Check ARIA Mapping for epub:types
+
+```
+blitzck map --search copyright-page
+```
+
 ## Acknowledgements
 
 Special thanks to [Jellybooks](https://www.jellybooks.com) for providing the data this tool is using.
@@ -62,6 +68,11 @@ Jellybooks require EPUB 3, JavaScript and Web Storage for an app to be supported
 blitzck [command] <options>
 
     help .............. show help menu
+    map ............... show aria mappings for epub:types
+        --all, -a ........... show all epub:types and their mapping
+        --help, -h .......... show help specific to the map command
+        --list, -l .......... show the list of epub:types available in the database
+        --search, -s ........ search a specific epub:type
     mt ................ show media types
         --all, -a ........... show all media types
         --help, -h .......... show help specific to the mt command
