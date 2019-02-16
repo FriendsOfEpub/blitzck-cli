@@ -62,7 +62,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
-        "Origin": "Localhost + persistent port",
+        "Origin": "Localhost + persistent port (5001)",
         "Engine": "Trident (IE11)"
       }
     }
@@ -202,7 +202,17 @@
     "appName": "bookshelf",
     "displayName": "BookShelf",
     "support": {
-      "Android": "No data for this platform.",
+      "Android": {
+        "Name": "Bookshelf Android",
+        "Version": "4.4.2",
+        "EPUB 3": "Yes",
+        "CSS 2.1": "Yes",
+        "CSS 3": "Yes",
+        "JavaScript": "Yes",
+        "Web Storage": "No",
+        "Origin": "Localhost + random port",
+        "Engine": "ChromeView"
+      },
       "iOS": "No data for this platform.",
       "macOS": "Not available on this platform.",
       "Windows": {
@@ -231,7 +241,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
-        "Origin": "Localhost + persistent port",
+        "Origin": "Localhost + persistent port (default 8080)",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -284,7 +294,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
-        "Origin": "Localhost + persistent port",
+        "Origin": "Localhost + persistent port (default 8080)",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -458,7 +468,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "No",
-        "Origin": "Not tested",
+        "Origin": "Localhost + persistent port (default 8080)",
         "Engine": "ChromeView"
       },
       "iOS": "No data for this platform.",
@@ -569,7 +579,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
-        "Origin": "Localhost + persistent port",
+        "Origin": "Localhost + persistent port (default 8080)",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -676,14 +686,14 @@
       "iOS": "No data for this platform.",
       "macOS": "Not available on this platform.",
       "Windows": {
-        "Name": "Not implemented",
-        "Version": "Not implemented",
+        "Name": "EdgeEpubReader",
+        "Version": "Edge/18",
         "EPUB 3": "Yes",
         "CSS 2.1": "Yes",
         "CSS 3": "Yes",
-        "JavaScript": "No",
-        "Web Storage": "No",
-        "Origin": "N/A",
+        "JavaScript": "Yes",
+        "Web Storage": "Yes",
+        "Origin": "Custom ms-local-stream scheme",
         "Engine": "EdgeHTML (Edge)"
       }
     }
