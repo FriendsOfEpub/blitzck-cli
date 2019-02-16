@@ -103,6 +103,7 @@ blitzck [command] <options>
 - CSS 3: per spec, what EPUB 3.2 should support.
 - JavaScript: if not supported but EPUB 3 is, then it is probably disabled.
 - Web Storage: `sessionStorage` and `localStorage` are supported/enabled.
+- Origin: how EPUB contents are served – can impact Web Storage (shared vs. isolated) and rectrict some JavaScript APIs.
 - Engine: our best guess at which WebView or Rendering Engine is used by the app.
 
 ## License

@@ -11,6 +11,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "RMSDK"
       }
     }
@@ -28,6 +29,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Unknown (could not be tested)",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -38,6 +40,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + random port",
         "Engine": "UIWebView"
       },
       "macOS": {
@@ -48,6 +51,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + random port",
         "Engine": "Webkit (Safari)"
       },
       "Windows": {
@@ -58,6 +62,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + persistent port",
         "Engine": "Trident (IE11)"
       }
     }
@@ -75,6 +80,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "FBReader"
       },
       "iOS": "No data for this platform.",
@@ -95,6 +101,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "RMSDK"
       }
     }
@@ -114,6 +121,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Non-network file:// scheme",
         "Engine": "Gecko (Firefox)"
       },
       "Windows": {
@@ -124,6 +132,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Non-network file:// scheme",
         "Engine": "Gecko (Firefox)"
       }
     }
@@ -144,6 +153,7 @@
         "CSS 3": "Yes",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "Electron (Chrome)"
       }
     }
@@ -161,6 +171,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "RMSDK"
       }
     }
@@ -179,6 +190,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + random port",
         "Engine": "UIWebView"
       },
       "macOS": "Not available on this platform.",
@@ -201,6 +213,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Custom scheme",
         "Engine": "EdgeHTML (Edge)"
       }
     }
@@ -218,6 +231,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + persistent port",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -228,6 +242,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + random port",
         "Engine": "UIWebView"
       },
       "macOS": "Not available on this platform.",
@@ -249,6 +264,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Unknown (test won’t run)",
         "Engine": "Webkit"
       },
       "macOS": "Not available on this platform.",
@@ -268,6 +284,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + persistent port",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -278,6 +295,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + random port",
         "Engine": "WKWebview"
       },
       "macOS": "Not available on this platform.",
@@ -297,6 +315,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "FBReader"
       }
     }
@@ -317,6 +336,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "Custom homemade"
       }
     }
@@ -334,6 +354,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Non-network file:// scheme",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -344,6 +365,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Non-network file:// scheme",
         "Engine": "UIWebView"
       },
       "macOS": "Not available on this platform.",
@@ -363,6 +385,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Non-network file:// scheme",
         "Engine": "ChromeView"
       },
       "iOS": "No data for this platform.",
@@ -384,6 +407,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Custom ibooks-epub scheme",
         "Engine": "UIWebView"
       },
       "macOS": {
@@ -394,6 +418,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Custom ibooks-epub scheme",
         "Engine": "Webkit (Safari)"
       },
       "Windows": "Not available on this platform."
@@ -415,6 +440,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "Unknown"
       }
     }
@@ -432,6 +458,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "No",
+        "Origin": "Not tested",
         "Engine": "ChromeView"
       },
       "iOS": "No data for this platform.",
@@ -452,6 +479,7 @@
         "CSS 3": "Somewhat",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "A fork of Webkit circa 2012"
       }
     }
@@ -469,6 +497,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "No",
+        "Origin": "Localhost + random port",
         "Engine": "Android WebView (old)"
       },
       "iOS": {
@@ -479,6 +508,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Custom epub-better scheme",
         "Engine": "UIWebView"
       },
       "macOS": {
@@ -489,6 +519,7 @@
         "CSS 3": "Yes",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "Unknown"
       },
       "Windows": {
@@ -499,6 +530,7 @@
         "CSS 3": "Yes",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "Unknown"
       }
     }
@@ -516,6 +548,7 @@
         "CSS 3": "Yes",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "Unknown"
       },
       "iOS": "No data for this platform.",
@@ -536,6 +569,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + persistent port",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -546,6 +580,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + random port",
         "Engine": "WKWebView"
       },
       "macOS": "Not available on this platform.",
@@ -565,6 +600,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "No",
+        "Origin": "Non-network file:// scheme",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -575,6 +611,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Non-network file:// scheme",
         "Engine": "UIWebView"
       },
       "macOS": "Not available on this platform.",
@@ -594,6 +631,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "No",
+        "Origin": "Localhost + random port",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -604,6 +642,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Localhost + random port",
         "Engine": "WKWebView"
       },
       "macOS": "Not available on this platform.",
@@ -623,6 +662,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "FBReader"
       }
     }
@@ -643,6 +683,7 @@
         "CSS 3": "Yes",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "EdgeHTML (Edge)"
       }
     }
@@ -660,6 +701,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "RMSDK"
       }
     }
@@ -677,6 +719,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "No",
+        "Origin": "Non-network content:// scheme",
         "Engine": "ChromeView"
       },
       "iOS": {
@@ -687,6 +730,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Custom openepub2 scheme",
         "Engine": "UIWebView"
       },
       "macOS": "Not available on this platform.",
@@ -698,6 +742,7 @@
         "CSS 3": "Yes",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "Unknown"
       }
     }
@@ -715,6 +760,7 @@
         "CSS 3": "Yes",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "Custom homemade"
       }
     }
@@ -732,6 +778,7 @@
         "CSS 3": "No",
         "JavaScript": "No",
         "Web Storage": "No",
+        "Origin": "N/A",
         "Engine": "FBReader"
       },
       "iOS": "Not available on this platform.",
@@ -752,6 +799,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
+        "Origin": "Non-network file:// scheme",
         "Engine": "ChromeView"
       },
       "iOS": "Not available on this platform.",
