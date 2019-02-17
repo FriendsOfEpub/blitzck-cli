@@ -29,7 +29,7 @@
         "CSS 3": "Yes",
         "JavaScript": "Yes",
         "Web Storage": "Yes",
-        "Origin": "Unknown (could not be tested)",
+        "Origin": "Non-network file:// scheme",
         "Engine": "ChromeView"
       },
       "iOS": {
