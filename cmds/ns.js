@@ -2,6 +2,8 @@ const namespaces = require("../data/nsdata.json");
 const makeList = require("../utils/makelist");
 const listAll = require("../utils/listall");
 const jexp = require("../utils/jsonexport");
+const xexp = require("../utils/xmlexport");
+const yexp = require("../utils/yamlexport");
 const help = require("./help");
 
 module.exports = (args) => {
@@ -10,6 +12,8 @@ module.exports = (args) => {
     const all = args.all || args.a;
     const list = args.list || args.l;
     const json = args.json || args.j;
+    const xml = args.xml || args.x;
+    const yaml = args.yaml || args.y;
 
     let result = namespaces;
 
@@ -30,6 +34,10 @@ module.exports = (args) => {
       makeList(namespaces, "ns", "namespaces");
     } else if (json) {
       jexp(result);
+    } else if (xml) {
+      xexp("namespaces", "namespace", result)
+    } else if (yaml) {
+      yexp(result);
     } else {
       help(args);
     }

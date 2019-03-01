@@ -36,6 +36,22 @@ blitzck support --json > epub-support.json
 
 Will create an `epub-support.json` file and write the database as JSON inside it.
 
+And:
+
+```
+blitzck map --xml > aria-mappings.xml
+```
+
+Will create an `aria-mappings.xml` file and write the database as XML inside it.
+
+Finally:
+
+```
+blitzck ns --yaml > namespaces.yaml
+```
+
+Will create an `namespaces.yaml` file and write the database as YAML inside it.
+
 ### Check Namespaces
 
 ```
